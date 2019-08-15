@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+}
+.nav-bar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: gray;
+}
+.company-name {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    
+}
+.directory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+}
+.black-box {
+    height: 20%;
+    display: flex;
+    background-color: black;
+}
